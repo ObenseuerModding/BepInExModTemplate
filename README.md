@@ -34,5 +34,11 @@ Save the file and you're ready to start making a mod!
 
 I've tried to include both Visual Studio and Visual Studio Code tasks for building and deploying the plugin to your game directory but if for some reason these don't work you can use the following commands in the terminal in your project folder that contains the `.sln` file
 
+> [!NOTE]  
+> These actions depend on the config file being set up!
+
 - `dotnet build -p:DeployToProd=true` to build and deploy to your plugins folder
 - `dotnet build -p:BuildStaging=true` to build the project and zip it up in the `artifacts` folder. This zip will be suitable for github releases
+
+> [!WARNING]
+> The BuildToStaging action depends on your project having a LICENSE file in the root folder alongside the solution file!
