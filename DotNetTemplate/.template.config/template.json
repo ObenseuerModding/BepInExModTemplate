@@ -1,0 +1,30 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Robyn",
+    "classifications": [
+        "Console"
+    ],
+    "guids": [
+        "725F983D-24CD-4EC1-A08A-FEF64D1A04D0",
+        "B0F2818C-F976-4923-B01A-D9A7319E0E8A"
+    ],
+    "identity": "dev.mamallama.os.bepin",
+    "name": "Obenseuer BepInEx Plugin",
+    "shortName": "OSBepinPlugin",
+    "tags": {
+        "language": "C#",
+        "type": "project"
+    },
+    "sourceName": "BepInExModTemplate",
+    "defaultName": "MyObenseuerPlugin",
+    "symbols": {
+        "725F983D-24CD-4EC1-A08A-FEF64D1A04D0": {
+            "type": "generated",
+            "generator": "guid"
+        },
+        "B0F2818C-F976-4923-B01A-D9A7319E0E8A": {
+            "type": "generated",
+            "generator": "guid"
+        }
+    }
+}
