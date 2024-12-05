@@ -1,6 +1,6 @@
-# LCMPublishingTemplate
+# BepInExModTemplate
 
-__PROJECT_DESC__
+Describe your project here!
 
 ## Using this Template
 
