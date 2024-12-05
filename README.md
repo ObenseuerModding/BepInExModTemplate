@@ -2,6 +2,11 @@
 
 This repo is a series of files designed to get you modding Obenseuer as quickly and easily as possible!
 
+- [Installing](#installing)
+- [Using](#using)
+  - [Setting Up The Config File](#setting-up-the-config-file)
+- [Manually Using the Build Directives](#manually-using-the-build-directives)
+
 ## Installing
 
 - Download this repo's source or clone it to your local computer.
@@ -19,7 +24,7 @@ Great! The template is now installed locally as OSBepinPlugin
 
 You now have a (mostly) working setup. For automated build copying you'll need to follow some extra steps!
 
-## Setting Up The Config File
+### Setting Up The Config File
 
 At the root of your new project you should see `Config.Build.user.props.template` this is a special file that is the template for the project's config. It needs to know where your copy of the game is.
 Make a copy of this file and rename it `Config.Build.user.props` without the template part. Open it in a text editor and replace `full/path/to/game` inside `<GameDir>full/path/to/game</GameDir>` with the actual full path to your game. This is the path when you right click the game in your Steam library and select "Browse Local Files"
