@@ -3,6 +3,9 @@ using BepInEx.Logging;
 using BepInExModTemplate.Settings;
 using HarmonyLib;
 
+//Un-comment this to use the patch example
+//using BepInExModTemplate.Patches;
+
 namespace BepInExModTemplate;
 
 /*
