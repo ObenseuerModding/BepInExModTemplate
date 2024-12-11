@@ -2,12 +2,21 @@
 
 This repo is a series of files designed to get you modding Obenseuer as quickly and easily as possible!
 
-- [Installing](#installing)
+- [Installing (Nuget)](#installing-nuget)
+- [Installing (Manually)](#installing-manually)
 - [Using](#using)
   - [Setting Up The Config File](#setting-up-the-config-file)
 - [Manually Using the Build Directives](#manually-using-the-build-directives)
 
-## Installing
+## Installing (Nuget)
+
+Run the following command
+
+```bash
+dotnet new install dev.mamallama.OSBepInExModTemplate
+```
+
+## Installing (Manually)
 
 - Download this repo's source or clone it to your local computer.
 - Navigate inside the DotNetTemplate folder
