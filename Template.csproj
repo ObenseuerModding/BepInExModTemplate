@@ -11,6 +11,7 @@
     <Description>A simple BepInEx template for making mods for Obenseuer</Description>
     <PackageTags>dotnet new; template; BepInEx; obenseuer</PackageTags>
     <PackageProjectUrl>https://github.com/ObenseuerModding/BepInExModTemplate</PackageProjectUrl>
+    <PackageLicenseExpression>CC0-1.0</PackageLicenseExpression>
 
     <!-- Keep package type as 'Template' to show the package as a template package on nuget.org and
     make your template available in dotnet new search.-->
