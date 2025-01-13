@@ -47,6 +47,6 @@
         Condition="'$(BuildStaging)' == 'true'">
         <Message Text="Creating zip archive $(StagingDir)/../$(ZipFileName)"
             Importance="High" />
-        <Exec Command="zip -r $(StagingDir)/../$(ZipFileName) $(StagingDir)/*" />
+        <Exec Command="cd $(StagingDir); zip -r $(ZipFileName) ." />
     </Target>
 </Project>
